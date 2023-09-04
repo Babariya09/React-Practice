@@ -26,6 +26,7 @@ import Useref from './Userefwithfunction';
 import Forwardref from './Forwardref';
 import Controoled from './Controlled';
 import Unctrolled from './unctrolled';
+import Hoc from './Hoc';
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <Useref /> */}
       {/* <Forwardref /> */}
       {/* <Controoled /> */}
-      <Unctrolled />
+      {/* <Unctrolled /> */}
+      <Hoc />
     </div>
   );
 }
