@@ -75,3 +75,10 @@ export default Routerinreact;
 // https://www.worldometers.info/coronavirus/country/us?price=10;
 // have params ma normal name ke tevu hoi pan qureey params ma ?price=10 aavu ghani vaar joyu hache to tene qureey params kevay.
 // exampale in Filter.js
+
+// ================== Navigation On click ===============
+
+// button uper navigation kem set thay ?
+// exampale make 2 button on home page.
+// and aa karva mate use thay use navigate hook.
+
