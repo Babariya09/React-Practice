@@ -21,6 +21,8 @@ import Senddatachildtoparent from './Senddatachildtoparent';
 import Parent from './Parent';
 import Pure from './Pure';
 import Usememo from './Usememo';
+import Refwithclasscomponent from './Refwithclasscomponent';
+import Useref from './Userefwithfunction';
 
 function App() {
   return (
@@ -44,7 +46,9 @@ function App() {
       {/* <Senddatachildtoparent /> */} {/* =========== childcomponent ========== */}
       {/* <Parent /> */} {/* =========== Parent component =========== */}
       {/* <Pure /> */}
-      <Usememo />
+      {/* <Usememo /> */}
+      {/* <Refwithclasscomponent /> */}
+      <Useref />
     </div>
   );
 }
