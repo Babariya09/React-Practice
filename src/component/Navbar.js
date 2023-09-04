@@ -21,6 +21,7 @@ function Navbar() {
                 <li><Link to="/usernew/prince">Prince</Link></li>
                 <li><NavLink to="/usernew/raj">Raj</NavLink></li>
                 <li><NavLink to="/filter">Filter</NavLink></li>
+                <li><NavLink to="/login">Login</NavLink></li>
 
                 {/*  ==================== Nested Route ======================== */}
 

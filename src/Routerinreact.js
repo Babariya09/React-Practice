@@ -10,23 +10,65 @@ import Contact from "./component/Contact";
 import Company from "./component/Company";
 import Channel from "./component/Channel";
 import Other from "./component/other";
+import Login from "./component/Login";
+import Protected from "./component/Protected";
+
+// =============== normal route ===============
+
+// function Routerinreact() {
+//     return (
+//         <>
+//             {/* <h1>React Router 6</h1> */}
+//             <BrowserRouter>
+//                 {/* <Link to="/about">About</Link>
+//             <br/><br/>
+//             <Link to="/">Home</Link> */}
+//                 <Navbar />
+//                 <Routes>
+
+//                      {/* ================== Noramal Route ============== */}
+
+//                     <Route path="/" element={<Home />} />
+//                     <Route path="/login" element={<Login />} />
+//                     <Route path="/about" element={<About />} />
+//                     {/* <Route path="/*" element={<Page404 />} /> */}
+//                     <Route path="/usernew/:name" element={<Usernew />} />
+//                     <Route path="/filter" element={<Filter />} />
+//                     <Route path="/*" element={<Navigate to="/" />} />
+
+//                     {/*  ==================== Nested Route ======================== */}
+
+//                     <Route path="/contact" element={<Contact />} >
+
+//                         <Route path="company" element={<Company />} />
+//                         <Route path="channel" element={<Channel />} />
+//                         <Route path="other" element={<Other />} />
+
+//                     </Route>
+
+//                     {/*  ==================== Nested Route End ======================== */}
+
+//                 </Routes>
+//             </BrowserRouter>
+//         </>
+//     )
+// }
+
+// export default Routerinreact;
+
+
+//======================== protectted Route ======================
 
 function Routerinreact() {
     return (
         <>
-            {/* <h1>React Router 6</h1> */}
             <BrowserRouter>
-                {/* <Link to="/about">About</Link>
-            <br/><br/>
-            <Link to="/">Home</Link> */}
                 <Navbar />
                 <Routes>
 
-                     {/* ================== Noramal Route ============== */}
-
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    {/* <Route path="/*" element={<Page404 />} /> */}
+                    <Route path="/" element={<Protected Component={Home} />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/about" element={<Protected Component={About} />} />
                     <Route path="/usernew/:name" element={<Usernew />} />
                     <Route path="/filter" element={<Filter />} />
                     <Route path="/*" element={<Navigate to="/" />} />
@@ -51,7 +93,7 @@ function Routerinreact() {
 
 export default Routerinreact;
 
-// ========== Note ===========
+// ========== [ Note ] ===========
 
 // ==================== Normal Rout ====================
 
@@ -113,3 +155,10 @@ export default Routerinreact;
 // ek page per thi bija page ma kya kya data gya che state, id extra...
 // te badhu useLocation Hooks ni madad thi dekhade che.
 // exampale in HomePage.
+
+// ================ Protected Route =================
+
+// aa method no use tyare thay jem ke tame ghani website ma joyu hache ke login vina site ma koi gya per click kare ke scroll kare to pela login ke signup karva key to te tena thi thay che.
+// je je vastu ma account bane tya protectted route ni jarur pade j.
+// aa component no use karva mate login.js nu page banvu che te jovu.
+// and protected.js no pan use karo che.
