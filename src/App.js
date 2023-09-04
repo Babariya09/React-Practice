@@ -25,6 +25,7 @@ import Refwithclasscomponent from './Refwithclasscomponent';
 import Useref from './Userefwithfunction';
 import Forwardref from './Forwardref';
 import Controoled from './Controlled';
+import Unctrolled from './unctrolled';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <Refwithclasscomponent /> */}
       {/* <Useref /> */}
       {/* <Forwardref /> */}
-      <Controoled />
+      {/* <Controoled /> */}
+      <Unctrolled />
     </div>
   );
 }
