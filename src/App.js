@@ -23,6 +23,7 @@ import Pure from './Pure';
 import Usememo from './Usememo';
 import Refwithclasscomponent from './Refwithclasscomponent';
 import Useref from './Userefwithfunction';
+import Forwardref from './Forwardref';
 
 function App() {
   return (
@@ -48,7 +49,8 @@ function App() {
       {/* <Pure /> */}
       {/* <Usememo /> */}
       {/* <Refwithclasscomponent /> */}
-      <Useref />
+      {/* <Useref /> */}
+      <Forwardref />
     </div>
   );
 }
