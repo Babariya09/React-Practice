@@ -107,3 +107,9 @@ export default Routerinreact;
 // nested routing etle ek rouing ni ander biji routing.
 // exampale in contact page.
 // route ma jya path aapvi tya ' / ' nai rakhvano and jya link aapel hoi nested router ni jemke me ama aapi che contect ni ander to tya outlet.
+
+// ================= Use Location ===================
+
+// ek page per thi bija page ma kya kya data gya che state, id extra...
+// te badhu useLocation Hooks ni madad thi dekhade che.
+// exampale in HomePage.
