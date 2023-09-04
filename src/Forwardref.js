@@ -27,3 +27,4 @@ export default Forwardref;
 
 // forward ref te same ref jevuj work kare che but mani lo ke jyare aapde input and button aalag aalag component ma hoi tyare tena dom ne manipulate karva mate aapde forwardref no use karvi.
 // ek component ma thi bija component ma ref data mokalva use thya forward ref.
+// forward ref ni method class and functional component bane ma same rahe che.

@@ -24,6 +24,7 @@ import Usememo from './Usememo';
 import Refwithclasscomponent from './Refwithclasscomponent';
 import Useref from './Userefwithfunction';
 import Forwardref from './Forwardref';
+import Controoled from './Controlled';
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
       {/* <Usememo /> */}
       {/* <Refwithclasscomponent /> */}
       {/* <Useref /> */}
-      <Forwardref />
+      {/* <Forwardref /> */}
+      <Controoled />
     </div>
   );
 }
