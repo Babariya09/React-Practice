@@ -20,6 +20,7 @@ import Reusgecompowithloop from './Reusgecompowithloop';
 import Senddatachildtoparent from './Senddatachildtoparent';
 import Parent from './Parent';
 import Pure from './Pure';
+import Usememo from './Usememo';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       {/* <Senddatachildtoparent /> */} {/* =========== childcomponent ========== */}
       {/* <Parent /> */} {/* =========== Parent component =========== */}
       {/* <Pure /> */}
+      <Usememo />
     </div>
   );
 }
