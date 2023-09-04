@@ -5,6 +5,7 @@ import About from "./component/About";
 import Navbar from "./component/Navbar";
 import Page404 from "./component/Page404";
 import Usernew from "./component/Usernew";
+import Filter from "./component/Filter";
 
 function Routerinreact() {
     return (
@@ -20,6 +21,7 @@ function Routerinreact() {
                     <Route path="/about" element={<About />} />
                     {/* <Route path="/*" element={<Page404 />} /> */}
                     <Route path="/usernew/:name" element={<Usernew />} />
+                    <Route path="/filter" element={<Filter />} />
                     <Route path="/*" element={<Navigate to="/" />} />
                 </Routes>
             </BrowserRouter>
@@ -43,6 +45,7 @@ export default Routerinreact;
 // Anchore use in Html and link use in React.
 // tema kai pan deffrence nathi.
 // and tevu nathi ke link khali aamaj use thay tene game tya use kari shako jemke me nevbar,js ma kari che.
+// Link ni jagya per Navlink lakho to pan chale exampale in navbar.js.
 
 // ================== Page404 ================
 
@@ -60,4 +63,15 @@ export default Routerinreact;
 // have aa be url che to tema thi tame jovo to matr pachal ni vastuj fare che jem ke us, india aana base per aapan ne aalag aalag value male che to te nej paarams kahevay jeno deta joi ye tenu name athva theni value paramas ma paas karo etle tamni value tamne male.
 // aanu exampale Usernew.js ma che
 
+// ================== Active Link ===================
 
+// active link ne style karva ni 2 rit che .
+// 1 jyare tame react ni ander koi pan nav par click karcho to tema ek active class lagijay che te active class ne tame style kari shako.
+// 2 navlink athva link ni baju ma style={({isActive})=>{return {color: isActive ? 'skyblue' : ''}}};
+// style valo part navlink ke link ni baju ma mukvathi te active link ne skyblue kar che.
+
+// ===================== SerchParams and setSerchParmas =================
+
+// https://www.worldometers.info/coronavirus/country/us?price=10;
+// have params ma normal name ke tevu hoi pan qureey params ma ?price=10 aavu ghani vaar joyu hache to tene qureey params kevay.
+// exampale in Filter.js
