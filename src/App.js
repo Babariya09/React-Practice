@@ -1,23 +1,46 @@
 import logo from './logo.svg';
 import './App.css';
+import User from './User';
+import Prop2 from './Prop2';
+import Prop from './Prop';
+import Inputvalue from './Inputvalue';
+import Hideshow from './Hideshow';
+import FormHandel from './Form-Handel';
+import Profile from './Profile';
+import Login from './Login';
+import Classcompolifecycle from './Classcompolifecycle';
+import Hooks from './Hooks';
+import Hookprop from './Hooksprop';
+import Style from './Style';
+import Bootstrap from './Bootstrap';
+import Arraylisting from './Arraylisting';
+import Arraylistwithbootstrap from './Arraylistwithbootstrap';
+import Nestedarraylist from './Nestedarraylist';
+import Reusgecompowithloop from './Reusgecompowithloop';
+import Senddatachildtoparent from './Senddatachildtoparent';
+import Parent from './Parent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <User /> */}
+      {/* <Prop2 /> */}
+      {/* <Inputvalue /> */}
+      {/* <Hideshow /> */}
+      {/* <FormHandel /> */}
+      {/* <Profile /> */}
+      {/* <Login /> */}
+      {/* <Classcompolifecycle /> */}
+      {/* <Hooks /> */}
+      {/* <Hookprop /> */}
+      {/* <Style /> */}
+      {/* <Bootstrap /> */}
+      {/* <Arraylisting /> */}
+      {/* <Arraylistwithbootstrap /> */}
+      {/* <Nestedarraylist /> */}
+      {/* <Reusgecompowithloop /> */}
+      {/* <Senddatachildtoparent /> */} {/* =========== childcomponent ========== */}
+      <Parent /> {/* =========== Parent component =========== */}
     </div>
   );
 }
