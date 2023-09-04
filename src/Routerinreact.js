@@ -4,6 +4,7 @@ import Home from "./component/Home";
 import About from "./component/About";
 import Navbar from "./component/Navbar";
 import Page404 from "./component/Page404";
+import Usernew from "./component/Usernew";
 
 function Routerinreact() {
     return (
@@ -18,6 +19,7 @@ function Routerinreact() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     {/* <Route path="/*" element={<Page404 />} /> */}
+                    <Route path="/usernew/:name" element={<Usernew />} />
                     <Route path="/*" element={<Navigate to="/" />} />
                 </Routes>
             </BrowserRouter>
@@ -50,3 +52,12 @@ export default Routerinreact;
 
 // 404 ni badle tamare khoti url per home page j dekhad vu che to navigate no use thay.
 // navigate ni ander to devanu ke tamare kya navigate karav vu che khoti url per.
+
+// =============== Daynemic Routes [ Params ] =====================
+
+// https://www.worldometers.info/coronavirus/country/us/
+// https://www.worldometers.info/coronavirus/country/india/
+// have aa be url che to tema thi tame jovo to matr pachal ni vastuj fare che jem ke us, india aana base per aapan ne aalag aalag value male che to te nej paarams kahevay jeno deta joi ye tenu name athva theni value paramas ma paas karo etle tamni value tamne male.
+// aanu exampale Usernew.js ma che
+
+
