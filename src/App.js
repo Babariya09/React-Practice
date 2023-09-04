@@ -27,10 +27,14 @@ import Forwardref from './Forwardref';
 import Controoled from './Controlled';
 import Unctrolled from './unctrolled';
 import Hoc from './Hoc';
+import Routerinreact from './Routerinreact';
 
 function App() {
   return (
     <div className="App">
+
+      {/* ====================== React.js =========================== */}
+
       {/* <User /> */}
       {/* <Prop2 /> */}
       {/* <Inputvalue /> */}
@@ -56,7 +60,12 @@ function App() {
       {/* <Forwardref /> */}
       {/* <Controoled /> */}
       {/* <Unctrolled /> */}
-      <Hoc />
+      {/* <Hoc /> */}
+
+      {/* ======================= React Router 6 ========================== */}
+
+      <Routerinreact />
+
     </div>
   );
 }
