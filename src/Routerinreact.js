@@ -6,23 +6,43 @@ import Navbar from "./component/Navbar";
 import Page404 from "./component/Page404";
 import Usernew from "./component/Usernew";
 import Filter from "./component/Filter";
+import Contact from "./component/Contact";
+import Company from "./component/Company";
+import Channel from "./component/Channel";
+import Other from "./component/other";
 
 function Routerinreact() {
     return (
         <>
             {/* <h1>React Router 6</h1> */}
             <BrowserRouter>
-            {/* <Link to="/about">About</Link>
+                {/* <Link to="/about">About</Link>
             <br/><br/>
             <Link to="/">Home</Link> */}
-            <Navbar />
+                <Navbar />
                 <Routes>
+
+                     {/* ================== Noramal Route ============== */}
+
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     {/* <Route path="/*" element={<Page404 />} /> */}
                     <Route path="/usernew/:name" element={<Usernew />} />
                     <Route path="/filter" element={<Filter />} />
                     <Route path="/*" element={<Navigate to="/" />} />
+
+                    {/*  ==================== Nested Route ======================== */}
+
+                    <Route path="/contact" element={<Contact />} >
+
+                        <Route path="company" element={<Company />} />
+                        <Route path="channel" element={<Channel />} />
+                        <Route path="other" element={<Other />} />
+
+                    </Route>
+
+                    {/*  ==================== Nested Route End ======================== */}
+
                 </Routes>
             </BrowserRouter>
         </>
@@ -82,3 +102,8 @@ export default Routerinreact;
 // exampale make 2 button on home page.
 // and aa karva mate use thay use navigate hook.
 
+// ======================== nested Routing ====================
+
+// nested routing etle ek rouing ni ander biji routing.
+// exampale in contact page.
+// route ma jya path aapvi tya ' / ' nai rakhvano and jya link aapel hoi nested router ni jemke me ama aapi che contect ni ander to tya outlet.
