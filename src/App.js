@@ -19,6 +19,7 @@ import Nestedarraylist from './Nestedarraylist';
 import Reusgecompowithloop from './Reusgecompowithloop';
 import Senddatachildtoparent from './Senddatachildtoparent';
 import Parent from './Parent';
+import Pure from './Pure';
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <Nestedarraylist /> */}
       {/* <Reusgecompowithloop /> */}
       {/* <Senddatachildtoparent /> */} {/* =========== childcomponent ========== */}
-      <Parent /> {/* =========== Parent component =========== */}
+      {/* <Parent /> */} {/* =========== Parent component =========== */}
+      {/* <Pure /> */}
     </div>
   );
 }
