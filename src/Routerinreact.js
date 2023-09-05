@@ -162,3 +162,21 @@ export default Routerinreact;
 // je je vastu ma account bane tya protectted route ni jarur pade j.
 // aa component no use karva mate login.js nu page banvu che te jovu.
 // and protected.js no pan use karo che.
+
+// =========== routing setup =========
+
+// all okay exampale mate app1.js jovo.
+
+
+
+// =========== routing with exampale ============
+
+// aa method best che routing karva mate.
+// jyare aapde mota project ma work karta hoiye tyare aa j rite saru pade.
+// game te react routing mate react router ni offecial site ma jai ne jovu tya badhu mali jache.
+
+// ================== Dynemic Router [ #50 ] ===============
+
+// sarkhu work nathi krtu video nu but url ma thi id kadhva withRouter vapray to teni jarur pade tyare #50 mo video jovo.
+
+// =================================== Routing is Complate =========================================

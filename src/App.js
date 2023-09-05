@@ -28,6 +28,8 @@ import Controoled from './Controlled';
 import Unctrolled from './unctrolled';
 import Hoc from './Hoc';
 import Routerinreact from './Routerinreact';
+import BasicExample from './component/App1';
+import App2 from './component/App2';
 
 function App() {
   return (
@@ -64,7 +66,9 @@ function App() {
 
       {/* ======================= React Router 6 ========================== */}
 
-      <Routerinreact />
+      {/* <Routerinreact /> */}
+      {/* <BasicExample /> */}
+      <App2 />
 
     </div>
   );
