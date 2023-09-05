@@ -30,6 +30,7 @@ import Hoc from './Hoc';
 import Routerinreact from './Routerinreact';
 import BasicExample from './component/App1';
 import App2 from './component/App2';
+import Main from './Api-Calling/Main';
 
 function App() {
   return (
@@ -68,7 +69,13 @@ function App() {
 
       {/* <Routerinreact /> */}
       {/* <BasicExample /> */}
-      <App2 />
+      {/* <App2 /> */}
+
+      {/* ============================= API Calling with Routing [ Crud Opretion In Axios ] ============================== */}
+
+      {/* <Main />  */}
+
+      {/*  */}
 
     </div>
   );
