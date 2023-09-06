@@ -31,6 +31,7 @@ import Routerinreact from './Routerinreact';
 import BasicExample from './component/App1';
 import App2 from './component/App2';
 import Main from './Api-Calling/Main';
+import Mainredux from './Redux/Mainredux';
 
 function App() {
   return (
@@ -75,7 +76,9 @@ function App() {
 
       {/* <Main />  */}
 
-      {/*  */}
+      {/*============================ Redux With React =============================  */}
+
+      <Mainredux />
 
     </div>
   );

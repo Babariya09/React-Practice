@@ -1,0 +1,38 @@
+========================================= React Intro =========================================================
+
+=> redux ek state mangement library che.
+=> redux state ne mange and state ne store kare che.
+
+1) why use redux ?
+
+=> mani lo ke koi e-commerce website che tema jo tamare add kart per cart ma object ni value vadharvi and minus na button per teni value ghatad vi che to tya redux no use vadhare thay che.
+=> api calling mate pan redux no use thay che.
+
+2) React Redux Architure ?
+
+=> react nu architure 4 stepma work kare che.
+
+[1]. View :- view etle ke aapde je react na component ma html lakhi ye ke je dekhay te.
+[2]. Action :- Action etle ke check box athva radio button per click karvu koi button per click karvu to action ni madad thi deta collact tha che.
+               have ema button na click per aavi chake data jem ke login for feel kari submit na button per click kare athva api call pan karavi sake
+               mani lo ke tame serch karu mobile to te mobile na deta serch kari ne aapi dey to aa badhu action ma thay aanun main work data collect karva mate thay che.
+               pachi te event uper hoi ke api thi.
+[3]. Reducer :- reducer nu kam hoi ke action ma thi je data aave tene store ma pas karvanu.
+                tenu biju kam hoi ke aavel data ne filter karvo.
+                filter karvo etle kemani lo ke pela 100 data hata pan reducer ne 110 data nala che to have action reducer ne kese ke 10 data new add thya che to have te update kari ne reducer te data strore ma mokal che.
+[4]. Store :- aama badho data store thay data jem k,e login user no, signup user no extra...
+              have aa deta ne aapde je view ma jarur pade tya use kari shaki ye.
+              ek redux application ni ander 1 j store hoi jo 2 banavo to 1 chale and 1 na chale.
+              data hamesa aa j structre ma chale che.
+
+========================================= React with Redux Installition =================================================
+
+1) first check node and npm -v if not install node or npm elase first install node and npm.
+2) install redux.
+3) install React-redux.
+
+=================================== File Folder Structure ===========================================
+
+
+======== redux aakhu purur nathi pan badha project ma redux alg alg rite vapray to jya use karvano hoi tyare ek var video joi levo. ========
+
